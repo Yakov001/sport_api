@@ -1,0 +1,1 @@
+web: ./build/install/com.example.sport_api/bin/com.example.sport_api

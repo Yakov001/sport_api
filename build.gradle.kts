@@ -37,3 +37,7 @@ dependencies {
     implementation ("org.jetbrains.exposed:exposed-dao:$exposed_version")
     implementation ("org.jetbrains.exposed:exposed-jdbc:$exposed_version")
 }
+
+tasks.create("stage") {
+    dependsOn("installDist")
+}
